@@ -3,6 +3,7 @@ abstract: 'Sereal based persistence for Perl data structures'
 author:
   - 'Gelu Lupaş <gvl@cpan.org>'
 build_requires:
+  Test::Fatal: 0
   Test::More: 0.98
 configure_requires:
   CPAN::Meta: 0
@@ -28,9 +29,10 @@ no_index:
 provides:
   SerealX::Store:
     file: lib/SerealX/Store.pm
-    version: 0.001
+    version: 0.002
 requires:
-  Sereal: 2.0
+  Sereal::Decoder: 2.03
+  Sereal::Encoder: 2.03
   perl: 5.008001
   strict: 0
   warnings: 0
@@ -38,5 +40,5 @@ resources:
   bugtracker: https://github.com/ggl/SerealX-Store/issues
   homepage: https://github.com/ggl/SerealX-Store
   repository: https://github.com/ggl/SerealX-Store.git
-version: 0.001
+version: 0.002
 x_authority: cpan:GVL
