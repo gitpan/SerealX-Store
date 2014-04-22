@@ -29,7 +29,7 @@ no_index:
 provides:
   SerealX::Store:
     file: lib/SerealX/Store.pm
-    version: 0.002
+    version: 0.003
 requires:
   Sereal::Decoder: 2.03
   Sereal::Encoder: 2.03
@@ -40,5 +40,5 @@ resources:
   bugtracker: https://github.com/ggl/SerealX-Store/issues
   homepage: https://github.com/ggl/SerealX-Store
   repository: https://github.com/ggl/SerealX-Store.git
-version: 0.002
+version: 0.003
 x_authority: cpan:GVL
